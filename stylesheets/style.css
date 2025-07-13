@@ -32,26 +32,29 @@
     .navbar-nav .nav-link {
       margin-right: 10px;
     }
+
+
+
 /* slide effect */
 .offcanvas {
     width: 250px;
-  }
-  .offcanvas .nav-link:hover {
+}
+.offcanvas .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
-  }
+}
 
 
 
-  .navbar-nav .nav-link {
+.navbar-nav .nav-link {
     padding: 0.5rem 1rem;
-  }
+}
 
-  @media (min-width: 992px) {
+@media (min-width: 992px) {
     .navbar-nav {
       background-color: #212529;
       padding: 0.5rem;
       border-radius: 10px;
     }
-  }
+}
 
