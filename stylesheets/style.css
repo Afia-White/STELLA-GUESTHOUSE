@@ -105,9 +105,10 @@
     width:300px;
     position: absolute;
     top:60px;
-    left:5px;
+    left:-5px;
     z-index:2;
     border:10px solid white;
+    border-left-color:yellow;
   }
 
   .slides{
@@ -123,9 +124,9 @@
     /* margin:10px; */
   }
 
-  .icon{
+  /* .icon{
     padding: 20px;
-  }
+  } */
   .icons{
     display:flex;
     /* justify-content:space-around; */
@@ -169,78 +170,84 @@
   }
 
   .icons{
-    flex-direction: column; 
-    gap: 30px;
+    /* flex-direction: column;  */
+    /* gap: 30px; */
   }
 
-  .icon {
+  /* .icon {
     width: 100%;
-  }
+  } */
 
-  .icon1 {
+  /* .icon1 {
     width: 80px;
-  }
+  } */
 
-  h4 {
+  /* h4 {
     font-size: 1.2rem;
-  }
+  } */
 
   .enjoy {
-    flex-direction: column;
-    padding: 20px;
+    /* flex-direction: column; */
+    /* padding: 20px; */
   }
 
   .guest,
   .images {
-    max-width: 100%;
+    /* max-width: 100%; */
   }
 
 
 
   .welcome-message {
-    font-size: 0.95rem;
-    text-align: left;
-    line-height: 1.6;
-    word-break: break-word;
-    hyphens: auto;
+    /* font-size: 0.95rem; */
+    /* text-align: left; */
+    /* line-height: 1.6; */
+    /* word-break: break-word; */
+    /* hyphens: auto; */
   }
 
   /* Keep images side-by-side even on small screens */
   .image {
-    flex-direction: row; /* do NOT change to column */
-    flex-wrap: nowrap;
-    gap: 10px;
-    order: 2; /* images come second */
-    max-width: 100%;
+    /* flex-direction: row; do NOT change to column */
+    /* flex-wrap: nowrap; */
+    /* gap: 10px; */
+    /* order: 2; images come second */
+    /* max-width: 100%; */
   }
 
   .slides,
   .hero {
-    width: 48%; /* Keep them side by side */
+    /* width: 48%; Keep them side by side */
   }
 
   .enjoy {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px; */
   }
 
   .guest {
-    order: 1; /* text comes first */
-    max-width: 100%;
+    /* order: 1; text comes first */
+    /* max-width: 100%; */
   }
 
   
 
-  .image {
+     
+  .image{
     flex-direction: row; 
     justify-content: center;
     gap: 10px;
+    margin-top:30px;
   }
 
-  .slides,
-  .hero {
-    width: 45%;
+  .slides{
+    width:600%;
+    /* height:600%; */
+  }
+
+  .hero{
+    width:100%;
   }
 
   .welcome-message {
@@ -249,17 +256,13 @@
     line-height: 1.6;
     word-break: break-word;
     hyphens:auto;
-  }
+  } */
 
-  .icons {
-    order: 3; /* icons come last */
+  .icons{
+    order: 3;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
   }
-
-}
-
-
 
 
 @media (max-width:992px) {
@@ -272,7 +275,7 @@
     .icons{
     flex-direction: column; 
     gap: 30px;
-    order: 3; /* icons come last */
+    order: 3;
     align-items: center; 
   }
 
@@ -341,13 +344,12 @@
     gap: 10px;
   }
 
-  .slides,
-  .hero {
-    width: 45%;
+  .hero{
+    width:80%;
+    position:absolute;
+    left:-2px;
   }
-
-  .icons {
- 
+  .slides{
+    width:82%;
   }
-
 }
