@@ -116,9 +116,6 @@
     transition:opacity 0.3s ease;
   }
 
-  .button
-
-  
   .slides{
     height:450px;
     width:400px;
@@ -140,10 +137,15 @@
     /* justify-content:space-around; */
   }
 /*  */
-  .hover{
-    padding:20px;
+  .btn-more{
+    padding:9px;
     /* border:50%; */
     background-color:yellow;
+  }
+
+   .btn-more:hover{
+    padding:5px;
+    transition:0.1s ease-out;
   }
 
   .discover{
@@ -360,10 +362,10 @@
     width:80%;
     position:absolute;
     left:-2px;
-    height:63vh;
+    height:53vh;
   }
   .slides{
     width:78%;
-    height:75vh;
+    height:60vh;
   }
 }
