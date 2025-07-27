@@ -137,16 +137,23 @@
     /* justify-content:space-around; */
   }
 /*  */
-  .btn-more{
-    padding:9px;
-    /* border:50%; */
-    background-color:yellow;
+  .btn-more {
+  padding: 9px 16px;
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 50px; /* Rounded button */
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
   }
 
-   .btn-more:hover{
-    padding:5px;
-    transition:0.1s ease-out;
+  .btn-more:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05); /* Slight grow on hover */
   }
+
 
   .discover{
     padding:20px;
