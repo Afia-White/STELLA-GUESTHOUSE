@@ -145,6 +145,10 @@
     text-align:center;
   }
 
+  .selected{
+    color:#888;
+  }
+
 @media (max-width:786px) {
     .navbar-nav {
       background-color: #212529;
@@ -348,8 +352,10 @@
     width:80%;
     position:absolute;
     left:-2px;
+    height:;
   }
   .slides{
-    width:82%;
+    width:78%;
+    height:80vh;
   }
 }
