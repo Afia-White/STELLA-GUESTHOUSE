@@ -166,7 +166,18 @@
     color:#888;
   }
 
-@media (max-width:786px) {
+  .rooms{
+    position: relative;
+    top:30px;
+  }
+
+  .gender{
+    color:rgb(255, 255, 0);
+  }
+
+  .disc
+
+@media (max-width:786px){
     .navbar-nav {
       background-color: #212529;
       padding: 0.5rem;
@@ -190,10 +201,10 @@
     font-size:15px;
   }
 
-  .icons{
+  /* .icons{ */
     /* flex-direction: column;  */
     /* gap: 30px; */
-  }
+  /* } */
 
   /* .icon {
     width: 100%;
@@ -207,50 +218,48 @@
     font-size: 1.2rem;
   } */
 
-  .enjoy {
+  /* .enjoy { */
     /* flex-direction: column; */
     /* padding: 20px; */
-  }
+  /* } */
 
-  .guest,
-  .images {
+  /* .guest, */
+  /* .images { */
     /* max-width: 100%; */
-  }
+  /* } */
 
-
-
-  .welcome-message {
+  /* .welcome-message { */
     /* font-size: 0.95rem; */
     /* text-align: left; */
     /* line-height: 1.6; */
     /* word-break: break-word; */
     /* hyphens: auto; */
-  }
+  /* } */
 
   /* Keep images side-by-side even on small screens */
-  .image {
+  /* .image { */
     /* flex-direction: row; do NOT change to column */
     /* flex-wrap: nowrap; */
     /* gap: 10px; */
     /* order: 2; images come second */
     /* max-width: 100%; */
-  }
+  /* } */
 
-  .slides,
-  .hero {
+  /* .slides, */
+  /* .hero { */
     /* width: 48%; Keep them side by side */
-  }
+  /* } */
 
-  .enjoy {
+  /* .enjoy { */
     /* display: flex;
     flex-direction: column;
     padding: 20px; */
-  }
+  /* } */
 
-  .guest {
+  /* .guest { */
     /* order: 1; text comes first */
     /* max-width: 100%; */
-  }
+  /* } */
 
   
 
@@ -284,8 +293,13 @@
     flex-direction: column;
     align-items: center; 
   }
-
-
+  /* to end */
+  /* from rooms */
+   .rooms{
+    position: relative;
+    top:320px;
+  }
+}
 @media (max-width:992px) {
     .navbar-nav {
       background-color: #212529;
