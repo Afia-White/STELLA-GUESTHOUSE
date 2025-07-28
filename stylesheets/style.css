@@ -326,8 +326,8 @@
   /* from rooms */
    .rooms{
     position: relative;
-    top:320px;
-    left:95px;
+    top:550px;
+    left:-9px;
   }
 
   .gender{
@@ -345,15 +345,16 @@
    .jpg{
     position: absolute;
     left:-150px;
-    width:550px;
-    height:400px;
+    width:689px;
+    height:600px;
+    top:200px;
   }
 
   .pic-3{
    height:420px;
-   width:500px;
+   width:650px;
    position: absolute;
-   top:479px;
+   top:779px;
    left:-110px;
   }
 }
