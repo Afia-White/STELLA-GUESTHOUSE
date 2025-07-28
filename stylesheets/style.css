@@ -202,7 +202,7 @@
    height:420px;
    width:487px;
    position: absolute;
-   top:90px;
+   top:95px;
    left:-500px;
   }
 
@@ -330,19 +330,31 @@
     left:95px;
   }
 
+  .gender{
+    color:rgb(255, 255, 0);
+  }
+
+  .gender-two{
+    color:#888;
+  }
+
+  .pic-1{
+    display:flex;
+  }
+
    .jpg{
     position: absolute;
-    left:-10px;
-    width:850px;
+    left:-150px;
+    width:550px;
     height:400px;
   }
 
   .pic-3{
    height:420px;
-   width:487px;
+   width:500px;
    position: absolute;
-   top:90px;
-   left:-500px;
+   top:479px;
+   left:-110px;
   }
 }
 @media (max-width:992px) {
