@@ -174,9 +174,9 @@
   }
 
   .rooms{
-    position: relative;
+    /* position: relative;
     top:30px;
-    left:350px;
+    left:350px; */
   }
 
   .gender{
@@ -189,50 +189,50 @@
 
   .pic-1{
     display:flex;
+    justify-content:space-between;
   }
 
   .jpg{
-    position: absolute;
-    left:-10px;
-    width:850px;
-    height:420px;
+    width: 680px;
+    height:400px;
   }
 
   .pic-3{
-   height:420px;
-   width:487px;
-   position: absolute;
-   top:95px;
-   left:-500px;
+   height:400px;
+   width:390px;
   }
 
-  .img-5{
+  .standard{
+    display: flex;
+    margin-top: 20px;
+    /* gap: 50px; */
+
+    
+  }
+
+  /* .img-5{
     height:400px;
     width:400px;
-    position: absolute;
-    top:516px;
     left:-440px;
-    border-right:3px blue solid;
   }
 
   .pic-4{
     height:400px;
     width:380px;
     left:-34px;
-    top:514px;
-    position: absolute;
-    border-right:3px yellow solid;
   }
 
   .pic-2{
     height:400px;
     width:490px;
-    position: absolute;
-    top:512px;
     left:350px;
-    border-left:4px black solid;
-  }
+  } */
 
+  .standard-image{
+    height:400px;
+    width:390px;
+  }
+/* 
   .luxury{
     position: relative;
   }
@@ -242,14 +242,18 @@
     top:409px;
     font-weight:100;
     font-size:30px;
-  }
+  } */
 
-  .Comfortable{
+  /* .Comfortable{
     position: absolute;
     top:409px;
     left:903px;
     font-size:25px;
     font-weight:100;
+  } */
+
+  .amet{
+    display:flex;
   }
 
 @media (max-width:786px){
