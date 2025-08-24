@@ -1,0 +1,17 @@
+    .card-img{
+      height: 320px;
+      width:320px;
+      object-fit: cover;
+      filter: brightness(0.9);   /* darken image to improve text contrast */
+      transition: transform 1s ease, filter 1s ease;
+    }
+
+    /* Subtle zoom on hover */
+    .card:hover .card-img {
+      transform: scale(1.10);
+      filter: brightness(0.59);
+    }
+
+    /* .col-14 {
+        display: flex;
+    } */

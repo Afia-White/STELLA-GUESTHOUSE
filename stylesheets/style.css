@@ -338,7 +338,7 @@
     /* from booking */
     .booking{
       background-image:url(/images/landscape.jpg);
-      height:100vh;
+      height:50vh;
       /* justify-content:center;
       align-items: center;
       display:flex; */
@@ -354,6 +354,32 @@
       transform: translate(-50% , -50%);
       text-align: center;
     }
+    /* end */
+    /* from card-2 */
+    /* .col{
+      background-color:pink;
+      height:50px;
+    } */
+
+    /* #container{
+      display:flex;
+    } */
+
+    .grid-box{
+      color: white;
+      /* padding: 10px 20px; */
+      text-align: center;
+      font-weight: 600;
+      height:100px;
+      width:210px;
+      /* border-radius: 12px; */
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .grid-box:hover {
+      transform: translateY(-6px);
+    }
+
 
 @media (max-width:786px){
     .navbar-nav {
