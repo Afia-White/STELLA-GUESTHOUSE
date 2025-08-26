@@ -380,6 +380,98 @@
       transform: translateY(-6px);
     }
 
+     .card-img-dining {
+      height:250px;    
+      width:300px;       /* adjust as needed */
+      /* align-items: center;
+      justify-content: center;
+      display: flex; */
+      
+      object-fit: cover;
+      filter: brightness(0.9);   /* darken image to improve text contrast */
+      transition: transform 1s ease, filter 1s ease;
+    }
+
+    /* Subtle zoom on hover */
+    .card:hover .card-img-dining {
+      transform: scale(1.10);
+      filter: brightness(0.59);
+    }
+/* end */
+/* from footer */
+    .footer{
+      background-color:black;
+      width:100vw;
+      height:400px;
+      position: relative;
+      right:10px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 !important;
+    }
+      /* justify-content:space-between;         make it full width */
+      /* margin: 0 !important;          remove margins */
+      /* padding: 20px;       add padding for spacing inside */
+      /* background: #222;    example background color */
+      /* color: white;        text color */
+      /* display: flex;       make items align horizontally */
+      /* justify-content: space-around; space between items */
+      /* flex-wrap: wrap;     wrap if screen is small */
+/* }
+  .footer a {
+  color: #ddd;         footer link color */
+  /* text-decoration: none;
+  margin: 5px 0;
+  display: block;
+} */
+/* .footer a:hover {
+  color: #fff;
+}
+.footer-img-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+    .footer-img{
+      height:55px;
+    } */
+
+
+    .d-block > a {
+      display: block;
+      text-decoration:none;
+      color:white;
+    }
+
+    .footer-img{
+      height:55px;
+    }
+
+    .footer-img-div{
+      display: flex;
+      padding-left:20px;
+      padding-top:5px;
+    }
+
+    .footer-img-div > h4{
+      color:yellow;
+    }
+    /* end */
+    /* from last */
+    .p-r{
+      position: relative;
+      bottom:95px;
+      color:yellow;
+      /* font-weight:800; */
+      font-size:850px;
+    }
+
+    .p-r > h2{
+      color: white;
+      position: relative;
+      left:40px;
+    }
 
 @media (max-width:786px){
     .navbar-nav {
