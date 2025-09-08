@@ -173,11 +173,7 @@
     color:#888;
   }
 
-  .rooms{
-    /* position: relative;
-    top:30px;
-    left:350px; */
-  }
+  
 
   .gender{
     color:rgb(255, 255, 0);
@@ -506,6 +502,10 @@
   font-size: 14px;
   color: #ccc;
   line-height: 1.6;
+}
+
+.footer-section > ul li{
+  list-style:none;
 }
 
 .footer-section a {

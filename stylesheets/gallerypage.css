@@ -1,0 +1,62 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: #f8f9fa;
+color: #333;
+}
+header{
+text-align: center;
+padding: 2rem;
+/* background-color: yellow; */
+background-position: center;
+background-image: url("/images/exterior-room.jpg");
+background-size:cover;
+background-repeat: no-repeat;
+color: white;
+}
+header h1 {
+font-size: 2rem;
+}
+.gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 15px;
+padding: 20px;
+max-width: 1200px;
+margin: auto;
+}
+.gallery-item {
+position: relative;
+overflow: hidden;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+cursor: pointer;
+background: #fff;
+}
+.gallery-item img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 0.4s ease;
+}
+.gallery-item:hover img {
+transform: scale(1.08);
+}
+.caption {
+position: absolute;
+bottom: 0;
+width: 100%;
+padding: 10px;
+background: rgba(0, 0, 0, 0.5);
+color: #fff;
+text-align: center;
+font-size: 1rem;
+}
+
+ footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+}

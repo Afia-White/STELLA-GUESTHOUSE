@@ -1,0 +1,72 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+label { display: block; margin-bottom: 6px; color: #444; font-weight: 500; }
+input, textarea {
+width: 100%;
+padding: 12px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 8px;
+font-size: 1rem;
+}
+
+/* header{
+    background-image:url(/images/call-service.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+
+header {
+      background: url('/images/receptions.jpg') no-repeat center/cover;
+      height:75vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      position: relative;
+}
+
+header::after {
+      content: '';
+      position:absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+}
+header .content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+}
+
+button {
+background: #0b6b5c;
+color: #fff;
+border: none;
+padding: 12px 25px;
+border-radius: 8px;
+cursor: pointer;
+font-weight: 600;
+transition: translate 0.3s ease;
+}
+button:hover { background: #095246; }
+.map {
+margin-top: 40px;
+border-radius: 12px;
+overflow: hidden;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+/* footer {
+margin-top: 50px;
+background: #0b6b5c;
+color: #fff;
+text-align: center;
+padding: 15px 10px;
+border-radius: 8px 8px 0 0;
+} */
+
+footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+}
