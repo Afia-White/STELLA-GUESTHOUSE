@@ -95,17 +95,28 @@
     /* from enjoy */
   .enjoy{
     display: flex;
+    align-items: center;
+    justify-content:center;
   }
 
-  .image{
-    position:relative;
-  }
-
+    .images{
+      height:50px;
+    }
+/* 
   .welcome-message{
   max-width:500px;
   word-wrap: break-word;
   line-height: 1.6;
-}
+} */
+
+    .room-card {
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      height:100%;
+    }
 
   .hero{
     height:350px;
@@ -141,6 +152,8 @@
   } */
   .icons{
     display:flex;
+    gap:30px;
+    margin-bottom:10px;
     /* justify-content:space-around; */
   }
 /*  */
@@ -614,17 +627,18 @@
   
 
      
-  .image{
+  /* .image{
     flex-direction: row; 
     justify-content: center;
     gap: 10px;
     margin-top:30px;
-  }
+    border-radius:;
+  } */
 
-  .slides{
+  /* .slides{
     width:600%;
-    /* height:600%; */
-  }
+    height:600%;
+  } */
 
   .hero{
     width:100%;

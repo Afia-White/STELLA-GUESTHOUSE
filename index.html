@@ -129,9 +129,9 @@
     <p class="text-muted">Reserve a room with us easily and securely</p>
   </div>
 
-  <form class="row g-6 shadow p-4 rounded bg-light align-items-end">
+  <form class="row g-6 shadow p-4 rounded bg-light align-items-end mb-3">
     <div class="col-lg-2">
-      <label for="guestName" class="form-label ">Full Name</label>
+      <label for="guestName" class="form-label">Full Name</label>
       <input type="text" class="form-control" id="guestName" required>
     </div>
 
@@ -153,42 +153,79 @@
         <option value="">Standard Room(s)</option>
         <option value="">Comfortable Room(s)</option>
        </select>
-    </div>
+    </div>                                                  
      <div class="col-lg-2">
       <label for="checkin" class="form-label">Check-in</label>
       <input type="date" class="form-control" id="check-in"></input>
     </div>   
+     <!-- <div>
+        <label class="block text-sm font-semibold text-gray-700 mb-2">Number of Guests</label>
+        <select class="form-control mb-2">
+          <option>1 Guest</option>
+          <option>2 Guests</option>
+          <option>3 Guests</option>
+          <option>4+ Guests</option>
+        </select>
+      </div> -->
+      <!-- <div class="md:col-span-2">
+        <label class="block text-sm font-semibold text-gray-700 mb-1">Room Type</label>
+        <select class="w-full border rounded-xl p-3 focus:ring focus:ring-blue-300">
+          <option>Standard Room</option>
+          <option>Deluxe Room</option>
+          <option>Executive Suite</option>
+        </select> -->
+      <!-- </div> -->
     <div class="col-lg-2">
-      <button type="submit" class="btn btn-primary w-100">submit</button>
-    </div>
+      <label for="checkin" class="form-label">Number of Guests</label><br>
+       <!-- <input type="date" class="form-control" id="check-in"></input> -->
+       <select class="form-control"  name="" id="">
+        <!-- <option class="selected" value="" disabled selected>Guest numbers</option> -->
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+       </select>
+    </div> 
+      <div class="col-lg-2">
+        <button type="submit" class="btn btn-primary mt-2 w-100">submit</button>
+      </div>
   </form>
 
  <section class="enjoy">
-  <div class="guest">
-    <h3>WELCOME TO STELLA GUESTHOUSE</h3>
-    <h5>ENJOY YOUR LUXURY EXPERIENCE</h5>
-    <p class="welcome-message">Lorem ipsum dolor,sit amet consectetur adipisicing elit. Perspiciatis aliquam, cupiditate molestias dolorem a suscipit officia laudantium culpa hic sunt repudiandae ea necessitatibus quidem et quisquam maxime mollitia qui dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta harum neque sint sunt dolorem eligendi fugit quaerat veritatis et expedita facere nostrum, ab sit consequuntur excepturi. Omnis, corrupti. Doloremque, numquam. </p>
-    <div class="icons">
-      <div class="icon">
-          <img class="icon1" src="./icon/dish.png" alt="">
-          <h4>Flavours of Home</h4>
-          <!-- <p>Enjoy chef-crafted meals made from the freshest ingredients</p> -->
+    <div class="guest">
+      <h3 class="fs-1">WELCOME TO STELLA GUESTHOUSE</h3>
+      <h5>ENJOY YOUR LUXURY EXPERIENCE</h5>
+      <p class="welcome-message">Lorem ipsum dolor,sit amet consectetur adipisicing elit. Perspiciatis aliquam, cupiditate molestias dolorem a suscipit officia laudantium culpa hic sunt repudiandae ea necessitatibus quidem et quisquam maxime mollitia qui dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta harum neque sint sunt dolorem eligendi fugit quaerat veritatis et expedita facere nostrum, ab sit consequuntur excepturi. Omnis, corrupti. Doloremque, numquam. </p>
+      <div class="icons">
+        <div class="icon">
+            <img class="icon1" src="./icon/dish.png" alt="">
+            <h4 >Flavours of Home</h4>
+            <!-- <p>Enjoy chef-crafted meals made from the freshest ingredients</p> -->
+        </div>
+        <div class="icon">
+          <img class="icon1" src="./icon/swimming-pool.png" alt="">
+          <h4>Cool Off in Style</h4>
+          <!-- <p>Take a refreshing dip in our serene, crystal-clear swimming pool.</p> -->
+        </div>
+        <div class="icon">
+          <img class="icon1" src="./icon/swimming-pool.png" alt="">
+          <h4>Cool Off in Style</h4>
+          <!-- <p>Take a refreshing dip in our serene, crystal-clear swimming pool.</p> -->
+        </div>
+        <div class="icon">
+          <img class="icon1" src="./icon/swimming-pool.png" alt="">
+          <h4>Cool Off in Style</h4>
+          <!-- <p>Take a refreshing dip in our serene, crystal-clear swimming pool.</p> -->
+        </div>
       </div>
-      <div class="icon">
-        <img class="icon1" src="./icon/swimming-pool.png" alt="">
-        <h4>Cool Off in Style</h4>
-        <!-- <p>Take a refreshing dip in our serene, crystal-clear swimming pool.</p> -->
+      <div>
+          <button class="btn-more">MORE ABOUT US</button>
       </div>
     </div>
-    <div>
-         <button class="btn-more">MORE ABOUT US</button>
-    </div>
-  </div>
-  <!-- <div class="image">
-      <img class="slides" src="./images/slide2.jpg" alt="">
-      <img class="hero" src="./images/hero.png" alt="">
-  </div> -->
- </section>
+    <!-- <div class="image">
+        <img class="slides h-100 relative  rounded-circle " src="./images/sweet me.jpg" alt="CEO"> -->
+        <!-- <img class="hero" src="./images/hero.png" alt=""> -->
+    <!-- </div> -->
+  </section>
 <!-- 
   <section class="rooms">
     <div class="from-rooms">
@@ -224,7 +261,7 @@
       <p></p>
     </div>
   </section> -->
-  <section class="amet">
+  <!-- <section class="amet">
     <div class="facility">
       <h1>Our Facilities</h1>
       <h4>OUR HOTEL FACILITIES</h4>
@@ -232,11 +269,11 @@
     <div class="lorem">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur iusto delectus ducimus ipsum dolorum. </p>
     </div>
-  </section>
+  </section> -->
   <section>
-    <div>
-      <div>RELAXATION AND COMFORT</div>
-      <div>S.H Awaits Your Arrival</div>
+    <div class="mt-2">
+      <div class="text-center display-6">RELAXATION AND COMFORT</div>
+      <div class="text-center fs-2">S.G Awaits Your Arrival</div>
     </div>
     <div class="owl-carousel">
       <div>
@@ -317,8 +354,8 @@
       <button class="btn-more">Book Now</button>
     </div>
   </section>
-<div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-2">
+<div class="row mt-3">
+  <div class="col-sm-6 mb-3 mb-sm-2 ">
     <!-- <div class="card">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
@@ -327,7 +364,7 @@
       </div>
     </div> -->
     <div class="card text-white position-relative">
-      <img src="./images/bed.png" class="card-img" alt="Dining">
+      <img src="./images/fresh-fruits.jpg" class="card-img" alt="Dining">
       <div class="gradient-bottom"></div>
       <div class="card-img-overlay d-flex flex-column justify-content-end">
         <h5 class="card-title mb-1">Dining</h5>
@@ -344,7 +381,7 @@
       </div>
     </div> -->
     <div class="card text-white position-relative">
-      <img src="./images/food.png" class="card-img" alt="Dining">
+      <img src="./images/pic-2.jpg" class="card-img" alt="Dining">
       <div class="gradient-bottom"></div>
       <div class="card-img-overlay d-flex flex-column justify-content-end">
         <h5 class="card-title mb-1">Dining</h5>
@@ -361,7 +398,7 @@
       </div>
     </div> -->
     <div class="card text-white position-relative">
-            <img src="./images/car.png" class="card-img" alt="Dining">
+            <img src="./images/books-1617327_1280.jpg" class="card-img" alt="Dining">
             <div class="gradient-bottom"></div>
             <div class="card-img-overlay d-flex flex-column justify-content-end">
               <h5 class="card-title mb-1">Dining</h5>
@@ -377,8 +414,8 @@
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div> -->
-    <div class="card text-white position-relative">
-            <img src="./images/signal.png" class="card-img-dining" alt="Dining">
+        <div class="card text-white position-relative">
+            <img src="./images/fitness.jpg" class="card-img" alt="Dining">
             <div class="gradient-bottom"></div>
             <div class="card-img-overlay d-flex flex-column justify-content-end">
               <h5 class="card-title mb-1">Dining</h5>
