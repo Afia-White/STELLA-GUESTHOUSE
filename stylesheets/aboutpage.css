@@ -86,7 +86,7 @@
     }
 
     @media(max-width:786px){
-      .lounge{
-        width:100px;
+      .photo-grid > img{
+        width:200px;
       }
     }
